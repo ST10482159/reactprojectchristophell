@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+A beautiful and functional React Native mobile application for resturant menu management. This app provides separate interfaces for customers to view the menu and chefs to manage menu items.
+The features for customers
+complete menu view, all available menu , course based filtering - filter items by courses starters , main , desserts and drinks .
+menu statistics - view average prices and course breakdown
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+vegetarian - clear labeling of vegetarian option
 
-## Get started
+for chef
+add new menu items and be able to remove existing items and real time management -updates across the app
+menu statistic able to track pricing and course distribution
 
-1. Install dependencies
+smart features
+average prices calculations and real time filtering and responsive design , the user friendly interface - navigation and clear layouts
 
-   ```bash
-   npm install
-   ```
+Technical features
 
-2. Start the app
+Typescript for loops for course average calculations
+while loops for item searching
+global variables for state management
+organized function structure for clean code maintenance
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-Screens
+welcome interface
+navigation to main menu or chef portal 2. home screen
+complete menu display , average prices , course breakdown and navigation to filter and chef screen 3. chef management
+add menu item form
+remove existing items , current menu overview and real time statistics 4. filter screen
+course based filtering
+preview of filtered results , item count display and easy filter application
+installation
+. node.js installed
+.React Native development environment set up
+.Android emulator
